@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.nostalgiacraft.tweaker.mixin",
+  "plugin": "dev.nostalgiacraft.tweaker.TweakerMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "mythicupgrades.TheEndBiomeSourceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
