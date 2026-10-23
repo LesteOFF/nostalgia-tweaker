@@ -50,6 +50,9 @@ repositories {
 dependencies {
     compileOnly "com.github.bawnorton.mixinsquared:mixinsquared-common:${mixinsquared_version}"
     compileOnly files("${pack_mods_dir}/${mythicupgrades_jar}")
+    compileOnly files("${pack_mods_dir}/${mekanism_jar}")
+    compileOnly files("${pack_mods_dir}/${jei_jar}")
+    compileOnly files("${pack_mods_dir}/${evolvedmekanism_jar}")
 }
 
 var generateModMetadata = tasks.register('generateModMetadata', ProcessResources) {
