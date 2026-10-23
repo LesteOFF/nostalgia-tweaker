@@ -5,6 +5,13 @@
   "plugin": "dev.nostalgiacraft.tweaker.TweakerMixinPlugin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "automodpack_mod.GameHelpersMixin",
+    "emextras.EMExtraJEIMixin",
+    "evolvedmekanism.EMGeneralConfigMixin",
+    "hazennstuff.RainbowItemNameMixin",
+    "jei.AnvilRecipeMakerMixin",
+    "minecraft.ServerAdvancementManagerMixin",
+    "mythicupgrades.JadeAuraEffectMixin",
     "mythicupgrades.TheEndBiomeSourceMixin"
   ],
   "injectors": {
